@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rr"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/text_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/sign_up"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rr"
+            android:fillViewport="true"
+            android:fitsSystemWindows="true">
+
+
+            <LinearLayout
+                android:id="@+id/middleLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:paddingRight="@dimen/_20sdp">
+
+                    <!-- <ImageView
+                         android:layout_width="@dimen/_80sdp"
+                         android:layout_height="@dimen/_50sdp"
+                         android:layout_gravity="center"
+                         android:src="@drawable/app_logo_green" />
+    -->
+                    <TextView
+                        android:id="@+id/tv_login_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:text="@string/already_member"
+                        android:textColor="@color/colorPrimary" />
+
+                    <EditText
+                        android:id="@+id/et_first_name"
+                        style="@style/edittext_style_black"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:hint="@string/first_name" />
+
+                    <EditText
+                        android:id="@+id/et_last_name"
+                        style="@style/edittext_style_black"
+                        android:hint="@string/last_name" />
+
+                    <EditText
+                        android:id="@+id/et_email"
+                        style="@style/edittext_style_black"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/background_grey_rect"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:text="+91" />
+
+                        <EditText
+                            android:id="@+id/et_mobile"
+                            style="@style/edittext_style_black"
+                            android:hint="@string/mobile"
+                            android:inputType="phone"
+                            android:maxLength="10"
+                            android:paddingLeft="@dimen/_10sdp" />
+                    </LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spinner1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:entries="@array/blood_group_arrrays" />
+
+                    <EditText
+                        android:id="@+id/et_password"
+                        style="@style/edittext_style_black"
+                        android:hint="@string/password"
+                        android:inputType="textPassword" />
+
+                    <EditText
+                        android:id="@+id/et_re_password"
+                        style="@style/edittext_style_black"
+                        android:hint="@string/Re_password"
+                        android:inputType="textPassword" />
+
+
+                    <Button
+                        android:id="@+id/btnSignup"
+                        style="@style/button_green_20dp_corner_radius"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:text="@string/sign_up" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="@string/terms_condition" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+</layout>

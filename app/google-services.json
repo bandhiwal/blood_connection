@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "921659257615",
+    "firebase_url": "https://fir-image-e4dad.firebaseio.com",
+    "project_id": "fir-image-e4dad",
+    "storage_bucket": "fir-image-e4dad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921659257615:android:d323b33c279a6a18",
+        "android_client_info": {
+          "package_name": "image.tumblr.hot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921659257615-th3fu1lmafs76p3a4vhau1ff1rij5ndv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgFjqnt9mWRX-XYDpy0hrjTTLezL7vuog"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

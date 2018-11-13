@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp"
+    tools:context="image.tumblr.hot.FullStoryActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="title"/>
+
+    <TextView
+        android:id="@+id/tv_full_story"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="full story"/>
+</LinearLayout>
+    </android.support.v4.widget.NestedScrollView>

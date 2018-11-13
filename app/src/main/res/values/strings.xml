@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Blood Connection</string>
+    <string name="camera_button_text">ADD NEW IMAGE</string>
+    <string name="sign_in_prompt">Sign In to begin</string>
+    <string name="take_photo_prompt">ADD A NEW IMAGE</string>
+    <string name="download">SAVE</string>
+    <string name="sign_in_anonymously">Sign In</string>
+    <string name="rationale_storage">This sample reads images from your camera to demonstrate uploading.</string>
+    <string name="label_link">Link to Uploaded File</string>
+    <string name="label_download">Download File</string>
+    <string name="log_out">Log out</string>
+    <string name="success">Success</string>
+
+
+    <string name="no_internet_found_check_your_connection_or_try_again">No Internet found. Check your connection or try again.</string>
+    <string name="oh_no">Oh no!</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="next">Next</string>
+    <string name="next_">Next \></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="assistant_login">Assistant Log-In</string>
+    <string name="login">Login</string>
+    <string name="already_member">Already member</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Password</string>
+    <string name="Re_password">Re-Password</string>
+    <string name="terms_condition"><![CDATA[By signing in you agree to the Farmleaf\'s privacy policy and terms & conditions.]]></string>
+    <string name="blood_group">Blood Group</string>
+    <string name="forgot_password_q">forgot password_q</string>
+    <string name="get_started">Get Started</string>
+    <string name="email_address_mobile">Email Address</string>
+    <string name="create_account">Create Account</string>
+
+
+    <string name="select_blood_group">Select Blood Group</string>
+    <string name="need_donor">Need donor</string>
+    <string name="find_donor">Find Donor</string>
+    <string name="default_empty_list_info">No data found</string>
+    <string name="search">Search</string>
+    <string-array name="blood_group_arrrays">
+        <item>Select Blood Group</item>
+        <item>A +</item>
+        <item>A -</item>
+        <item>B +</item>
+        <item>B -</item>
+        <item>AB +</item>
+        <item>AB -</item>
+        <item>O +</item>
+        <item>O -</item>
+    </string-array>
+</resources>
